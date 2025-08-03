@@ -28,7 +28,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>React Calculators</h1>
+      <h1>React Calculator</h1>
       <input value={expression} readOnly />
       <div className="result">{result}</div>
 
