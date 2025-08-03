@@ -1,0 +1,38 @@
+.container {
+  max-width: 350px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 60%;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  background: #e0e0e0;
+  border: 2px solid #000;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+  min-height: 30px;
+}
