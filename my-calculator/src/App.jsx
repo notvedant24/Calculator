@@ -29,7 +29,7 @@ export default function App() {
   return (
     <div className="container">
       <h1>React Calculator</h1>
-      <input value={expression} readOnly />
+     <input type="text" value={expression} readOnly />
       <div className="result">{result}</div>
 
       <div className="grid">
